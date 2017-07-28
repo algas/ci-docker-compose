@@ -17,4 +17,5 @@ build:
     - docker exec cidockercompose_web_1 ls -alh /
     - docker exec cidockercompose_web_1 ls -alh /code
     - docker exec cidockercompose_web_1 ls -alh /app
+    - docker exec cidockercompose_web_1 curl http://localhost:5000
     - docker-compose down
